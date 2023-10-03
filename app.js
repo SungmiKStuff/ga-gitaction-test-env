@@ -4,7 +4,7 @@ import express from 'express';
 import eventRoutes from './routes/events.js';
 
 const app = express();
-
+console.log('to commit');
 app.use(bodyParser.json());
 
 app.use(eventRoutes);
